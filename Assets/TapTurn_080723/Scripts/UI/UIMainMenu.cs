@@ -12,6 +12,8 @@ namespace TapTurn
         [SerializeField] private Button privacyBtn;
 
 
+        private const string privacyURL = "https://doc-hosting.flycricket.io/tap-turn-privacy-policy/b02a29c9-6e45-4183-8bd9-7a9ab53bee25/privacy";
+
         private void Start()
         {
             playBtn.onClick.AddListener(() =>
@@ -37,6 +39,7 @@ namespace TapTurn
             privacyBtn.onClick.AddListener(() =>
             {
                 SFXManager.Instance.PlaySound(SoundType.Button, false);
+                Application.OpenURL(privacyURL);
             });
         }
 

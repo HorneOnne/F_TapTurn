@@ -4736,7 +4736,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7c9df58ef4948bc4fbe6461a8167596c, type: 2}
   - {fileID: 11400000, guid: 3a912e095e0b23b4499ea5da9ba7af57, type: 2}
   - {fileID: 11400000, guid: 45df26f2841f8ba40affa18e3d660185, type: 2}
-  currentLevel: 1
   score: 0
   bestScore: 0
 --- !u!1 &1983772511
